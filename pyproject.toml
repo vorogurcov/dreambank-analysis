@@ -1,0 +1,33 @@
+[project]
+name = "dreambank"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ivan Frolov", email = "vania.frol2010@yandex.ru" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4==4.14.3",
+    "ipykernel==6.29.5",
+    "ipython==9.17.1",
+    "jupyterlab>=4.6.5",
+    "matplotlib==3.9.2",
+    "nbclient==0.10.2",
+    "nbformat==5.10.4",
+    "nltk==3.10.4",
+    "nrclex==4.1.0",
+    "numpy==2.5.4",
+    "pandas==2.2.2",
+    "pyarrow==17.0.0",
+    "scikit-learn==1.5.2",
+    "scipy==1.18.1",
+    "vadersentiment==3.3.2",
+]
+
+[project.scripts]
+dreambank = "dreambank:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"

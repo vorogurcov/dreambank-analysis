@@ -30,9 +30,10 @@ venv/
 env/
 ENV/
 
-# Downloaded archive, extracted HTML, derived tables, and notebook figures
+# Downloaded archive, extracted HTML, derived tables, and notebook outputs
 data/
 figures/
+notebooks/results/
 
 # Jupyter
 .ipynb_checkpoints/
